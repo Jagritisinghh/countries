@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  background-color: #161624;
+  /* align-items: center; */
+  justify-content: center;
+  min-height: 100vh;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+
+  /* background-color: yellow; */
+}
+.heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+.country-list-container {
+  border: 1px solid #334155;
+  border: 8px;
+  list-style: none;
+  height: 280px;
+  overflow-y: auto;
+  padding: 0px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+}
+
+.sub-head {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.list-items {
+  background-color: white;
+}
+.visited-country-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+}
+
+.no-countries-view {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+}
